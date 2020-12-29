@@ -31,7 +31,7 @@ To apply published labels to groups, you must first enable the feature. These st
 1. Run the following commands to prepare to run the cmdlets.
 
     ```PowerShell
-    Import-Module AzureADPreview
+    Install-Module -Name AzureADPreview
     Connect-AzureAD
     ```
 
